@@ -6,7 +6,8 @@ This is a slide theme for [Marpit](https://github.com/marp-team/marpit)
 
 [example.pdf](example.pdf) is the result of [example.md](example.md).
 
-<embed src="example.pdf" width="600" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+<iframe href="example.html" width="640px">
+</iframe>
 
 ## Usage
 
@@ -34,6 +35,3 @@ Prease clone this repository and run `marp-cli` as follows
 $ git clone https://github.com/ohtaman/tfug-themes.git
 $ npx @marp-team/marp-cli --html --allow-local-files --theme <path_to_the_theme.css> --pdf <path_to_the_md_file>
 ```
-
-## Example
-

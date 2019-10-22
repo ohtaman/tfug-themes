@@ -23,19 +23,30 @@ section h1 {
   font-weight: bold;
 }
 
-section th, section td {
-  border: 1px #ff9100 solid;
+section table {
+  border: 3px;
 }
 
-section th {
-  color: white;
+section table td {
+  border-collapse: collapse;
+  border: 1px solid #ffcc88;
+}
+
+section table th {
+  border-collapse: collapse;
   background-color: #ff9100;
+  border: 1px solid #ffcc88;
+  color: white;
+}
+
+section table tr:nth-child(even) {
+  background-color: #fff8ef;
 }
 
 section.title {
   padding-top: 0px;
   justify-content: center;
-  background: linear-gradient(to left, #ff6f00, #ff9100);
+  background: linear-gradient(to right, #ff6f00, #ff9100);
 }
 
 section.title * {
@@ -69,7 +80,7 @@ section.about_me:before {
   width: 50%;
   height: 100%;
   content: "";
-  background: linear-gradient(to left, #ff6f00, #ff9100);
+  background: linear-gradient(to right, #ff6f00, #ff9100);
 }
 
 section.about_me img{
@@ -79,7 +90,6 @@ section.about_me img{
   height: 256px;
   width: 256px;
   border-radius: 50%;
-  box-shadow: 0px 1px 10px #ff6f00;
 }
 
 section.about_me h1 {
@@ -117,7 +127,7 @@ section.subsection footer {
 section.subsection2 {
   padding-top: 0px;
   justify-content: center;
-  background: linear-gradient(to left, #ff6f00, #ff9100);
+  background: linear-gradient(to right, #ff6f00, #ff9100);
 }
 
 section.subsection2 * {
@@ -148,4 +158,9 @@ section .right {
   position: absolute;
   left: calc(100% / 2 + 16px);
   width: calc(50% - 88px);
+}
+
+section .middle {
+  top: 50%;
+  transform: translate(0%, -50%);
 }

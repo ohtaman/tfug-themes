@@ -4,7 +4,7 @@ theme: tfug
 paginate: true
 ---
 <!-- _class: title -->
-# タイトル
+# Title of your talk
 
 ---
 <!-- pagination: start -->
@@ -19,22 +19,22 @@ paginate: true
 ![your logo](assets/logo.png)
 
 ---
-# タイトル
+# Title of this slide
 
-メッセージライン
+Main message
 
-- 箇条書き1
-  - 箇条書き2
+- Bullet1
+  - Bullet2
 
-|項目1|項目2|
-|:--:|:--|
-|ABC|123|
-|DEF|456|
-|GHI|789|
+| item1 | item2 |
+|:-----:|:------|
+| ABC   | 123   |
+| DEF   | 456   |
+| GHI   | 789   |
 
 ---
 
-# コード / 数式 / 図
+# Codes and formula
 
 ```python
 import brainpad
@@ -44,25 +44,23 @@ brainpad.do('something special')
 
 $$\frac{1}{2}\sum_{i=1}^{10}x_{i}$$
 
-![logo](assets/logo.png)
-
 ---
-# 左寄せ・中央寄せ・右寄せ
+# Alignments
 
 <div align="left">
-左寄せ
+Left
 </div>
 
 <div align="center">
-中央寄せ
+center
 </div>
 
 <div align="right">
-右寄せ
+Middle
 </div>
 
 ---
-# 2段組み
+# Two column format 
 
 <div class="left">
 
@@ -81,9 +79,31 @@ $$\frac{1}{2}\sum_{i=1}^{10}x_{i}$$
 </div>
 
 ---
-<!-- _class: subsection -->
-# セクション1
+# Vertical alignments
+
+<div class="left">
+
+Top
+
+- a
+- b
+- c
+
+</div>
+
+<div class="right middle">
+
+Middle
+
+- d
+- e
+- f
+
+</div>
 
 ---
+<!-- _class: subsection -->
+# Section 1
+---
 <!-- _class: subsection2 -->
-# セクション1
+# Section 2

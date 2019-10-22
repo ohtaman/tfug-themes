@@ -6,7 +6,7 @@ This is a slide theme for [Marpit](https://github.com/marp-team/marpit)
 
 This is a simple example generated from [example.md](example.dm).
 
-[![example](example.png)](example.html)
+[![example](example.png)](example.pdf)
 
 ## Usage
 

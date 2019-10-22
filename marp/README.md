@@ -4,10 +4,9 @@ This is a slide theme for [Marpit](https://github.com/marp-team/marpit)
 
 ## Example
 
-[example.pdf](example.pdf) is the result of [example.md](example.md).
+This is a simple example generated from [example.md](example.dm).
 
-<iframe href="example.html" width="640px">
-</iframe>
+[![example](example.png)](example.html)
 
 ## Usage
 

@@ -19,6 +19,7 @@ paginate: true
 ![your logo](assets/logo.png)
 
 ---
+
 # Title of this slide
 
 Main message
@@ -45,6 +46,7 @@ brainpad.do('something special')
 $$\frac{1}{2}\sum_{i=1}^{10}x_{i}$$
 
 ---
+
 # Alignments
 
 <div align="left">
@@ -52,11 +54,11 @@ Left
 </div>
 
 <div align="center">
-center
+Center
 </div>
 
 <div align="right">
-Middle
+Right
 </div>
 
 ---
@@ -68,6 +70,12 @@ Middle
 - b
 - c
 
+```python
+import me
+
+me.say("hello")
+```
+
 </div>
 
 <div class="right">
@@ -75,6 +83,13 @@ Middle
 - d
 - e
 - f
+
+```python
+import you
+
+you.say("hello")
+```
+
 
 </div>
 

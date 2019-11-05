@@ -4,23 +4,28 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap');
 
 section {
-  padding-top: 196px;
+  height: 720px;
+  width: 1280px;
+  padding-top: 160px;
+  padding-left: 64px;
   justify-content: start;
   color: #222222;
   font-family: 'Noto Sans JP', sans-serif;
-  height: 720px;
-  width: 1280px
 }
 
 section h1 {
   color: #ff9100;
   position: absolute;
   top: 32px;
-  height: 96px;
-  width: calc(100% - 148px);
-  padding-top: 32px;
+  left: 64px;
+  right: 64px;
+  padding-top: 24px;
   border-bottom: solid 1px #ff6f00;
   font-weight: bold;
+}
+
+section code {
+  font-size: small;
 }
 
 section table {
@@ -28,12 +33,10 @@ section table {
 }
 
 section table td {
-  border-collapse: collapse;
   border: 1px solid #ffcc88;
 }
 
 section table th {
-  border-collapse: collapse;
   background-color: #ff9100;
   border: 1px solid #ffcc88;
   color: white;
@@ -43,8 +46,28 @@ section table tr:nth-child(even) {
   background-color: #fff8ef;
 }
 
+
+section .left {
+  position: absolute;
+  width: calc(50% - 64px - 16px);
+}
+
+section .right {
+  position: absolute;
+  left: calc(50% + 16px);
+  width: calc(50% - 64px - 16px);
+}
+
+section .middle {
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+
 section.title {
+  position: static;
   padding-top: 0px;
+  padding-bottom: 0px;
   justify-content: center;
   background: linear-gradient(to right, #ff6f00, #ff9100);
 }
@@ -57,7 +80,7 @@ section.title h1 {
   position: static;
   border: none;
   background: none;
-  font-size: 64px;
+  font-size: 48px;
 }
 
 section.title footer {
@@ -112,8 +135,6 @@ section.subsection {
 
 section.subsection h1 {
   position: static;
-  font-size: 64px;
-  height: 128px;
 }
 
 section.subsection:after {
@@ -126,6 +147,7 @@ section.subsection footer {
 
 section.subsection2 {
   padding-top: 0px;
+  padding-bottom: 0px;
   justify-content: center;
   background: linear-gradient(to right, #ff6f00, #ff9100);
 }
@@ -137,8 +159,6 @@ section.subsection2 * {
 section.subsection2 h1 {
   position: static;
   border: none;
-  font-size: 64px;
-  height: 128px;
 }
 
 section.subsection2 footer {
@@ -149,18 +169,3 @@ section.subsection2:after {
   display: none;
 }
 
-section .left {
-  position: absolute;
-  width: calc(50% - 88px);
-}
-
-section .right {
-  position: absolute;
-  left: calc(100% / 2 + 16px);
-  width: calc(50% - 88px);
-}
-
-section .middle {
-  top: 50%;
-  transform: translate(0%, -50%);
-}

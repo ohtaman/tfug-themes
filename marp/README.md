@@ -21,7 +21,7 @@ You can register the theme as follows.
 ```json
 {
   "markdown.marp.themes": [
-    "https://ohtaman.github.io/marp/themes/tfug/theme.css"
+    "https://ohtaman.github.io/tfug-themes/marp/theme.css"
   ]
 }
 ```

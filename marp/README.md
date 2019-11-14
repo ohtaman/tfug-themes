@@ -12,7 +12,7 @@ This is a simple example generated from [example.md](example.dm).
 
 ### With VSCode
 
-TFUG Theme is available at <https://ohtaman.github.io/marp/themes/tfug/theme.css>.
+TFUG Theme is available at <https://ohtaman.github.io/tfug-themes/marp/theme.css>.
 You can register the theme as follows.
 
 1. Install the extension: [marp-vscode](https://github.com/marp-team/marp-vscode)
@@ -21,7 +21,7 @@ You can register the theme as follows.
 ```json
 {
   "markdown.marp.themes": [
-    "https://ohtaman.github.io/marp/themes/tfug/theme.css"
+    "https://ohtaman.github.io/tfug-themes/marp/theme.css"
   ]
 }
 ```

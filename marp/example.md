@@ -16,7 +16,7 @@ paginate: true
 - b
 - c
 
-![your logo](assets/logo.png)
+![your logo](https://ohtaman.github.io/tfug-themes/marp/assets/logo.png)
 
 ---
 
@@ -100,7 +100,7 @@ you.say("hello")
 
 Top
 
-- a
+- Use `<div class="left">`
 - b
 - c
 
@@ -115,6 +115,15 @@ Middle
 - f
 
 </div>
+
+---
+
+# With Right Image
+
+![bg right](https://picsum.photos/720?image=0)
+
+Use Advanced Background Syntax
+- \![bg right/left\](url)
 
 ---
 <!-- _class: subsection -->
